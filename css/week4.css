@@ -1,16 +1,89 @@
-html {font-size: 50px
-}
+  body{
+    margin: 0;
+  }
+  html{
+    font-size: 0.6250em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+  }
+  h2{
+    font-size: 2.0em;
+    line-height:1.8em;
+  }
+  h2, p{
+    margin: 0;
+  }
+  .card{
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    border-radius: 1.5em;
+    background-color: red;
+    border: 0.2em solid black;
+  }
+  .card_header{
+    border-radius: 0 0 1.5em 1.5em;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+  }
+  article{
+    height: 12em;
+    padding: 0.13em;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .card_article_text{
+    padding: 0.19em;
+    line-height: 1.5em;
+    color: white;
+  }
+  .card_footer{
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+  }
+  .card_footer p{
+    font-size: 1.5em;
+    line-height: 2.0em;
+  }
+  .card_header, .card_footer{
+    height: 3.0em;
+    padding: 10px 10px 10px 10px;
+  }
+  .card_article_img{
+    max-height: 100%;
+    float: right;
+  }
+  .card2{
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    border-radius: 1.5em;
+    background-color: lightskyblue;
+    border: 0.2em solid black;
+  }
+  .card_header2{
+    height: 2.8em;
+    padding: 1.0em 1.0em 1.0em 1.0em;
+    border-radius: 0 0 1.5em 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
 
-p {
-    color: red;
-}
+  .card_article2{
+    height: 1.20em;
+    background-color: lightskyblue;
+    padding: 3.0em;
+  }
 
-.test-class, .test-class-2 {
-    color: purple;
-    font-size: 50 px
-}
-
-#test-id {
-    color: green;
-
-}
+  .card_article_text2{
+    padding: 1.0em;
+    line-height: 1.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  .card_footer2{
+    border-radius: 1.5em 1.5em 0 0;
+    height: 3.0em;
+    padding: 1.0em 1.0em 1.0em 1.0em;
+  }
+  .card_footer2 p{
+    font-size: 1.5em;
+    line-height: 2.0em;
+  }
