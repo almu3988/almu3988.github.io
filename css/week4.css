@@ -87,3 +87,7 @@
     font-size: 1.5em;
     line-height: 2.0em;
   }
+  .card_article_img2{
+    max-height: 100%;
+    float: right;
+  }
