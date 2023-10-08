@@ -1,0 +1,24 @@
+body, html {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+#mainImage {
+    min-height:100%;
+    min-width:100%;
+}
+
+#overlayBottom img{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    width: 350px;
+}
+
+#overlayTop img{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 250px;
+}
