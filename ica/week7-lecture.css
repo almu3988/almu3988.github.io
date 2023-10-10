@@ -1,0 +1,30 @@
+body {
+    background-color: green;
+}
+
+div {
+    background-color: blue;
+    color: wheat;
+    font-size: 5Vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5Vw;
+    margin: 2.5Vw;
+    border: yellow 5px solid;
+}
+
+.div-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+@media screen and (max-width: 900px) {
+    body {
+        background-color: red;
+    }
+
+    .div-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
