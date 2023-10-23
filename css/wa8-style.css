@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+#title{
+    padding: 5px;
+    box-shadow: inset 0 0 0 0 #FADBE4;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    position: absolute;
+    top: 80px;
+    color: #D0A5C0;
+    font-size: 25px;
+}
+#title:hover{
+    box-shadow: inset 700px 0 0 0 #FADBE4;
+}
+
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: lightskyblue;
+
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav a:hover {
+    background-color: blueviolet;
+}
+
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+img:hover {
+    filter:invert(1);
+}
+
+#red-ball{
+    background-color: plum;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 50vw;
+    margin-top: 0;
+    animation-name: ballMove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ballMove {
+    from {
+        margin-left: -40vw;
+    }
+}
