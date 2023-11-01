@@ -1,0 +1,104 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    background-color: #e3e2fe;
+
+}
+
+.background{
+    background-image: url("concert_purple.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    width:100%;
+} 
+
+h1 {
+    text-align: center;
+    color: navy;
+    font-size: 4rem;
+}
+h2 {
+    margin-top: .4rem;
+    margin-bottom: 0rem;
+}
+h4 {
+    margin-top: .4rem;
+    margin-bottom: 0rem;
+}
+
+.intro {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+p {
+    margin: 1%;
+}
+ul {
+    margin: 0;
+    list-style-type: square;
+
+}
+
+img {
+    width: 90%;
+    height: 90%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.program {
+    margin: 2.5%;
+    padding: 2.5%;
+    background-color:#fff8e2;
+}
+
+.img_wrapper {
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .program_wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .img_wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .program_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid: flex;
+    }
+
+    .img_wrapper {
+        display: grid;
+        display: inline;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
