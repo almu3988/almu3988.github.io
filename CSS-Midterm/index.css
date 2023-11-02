@@ -16,14 +16,28 @@ body {
     width:100%;
 } 
 
+
 h1 {
     text-align: center;
     color: navy;
-    font-size: 4rem;
+    font-size: 7rem;
+    margin-top: 0.01rem;
+    filter:drop-shadow(rgb(68, 68, 68) 0.2rem 0.2rem 10px)
 }
 h2 {
-    margin-top: .4rem;
-    margin-bottom: 0rem;
+    text-align: center;
+    margin-top: 0.01rem;
+    font-size: 5rem;
+    color: navy
+    
+}
+h3, h4 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #2a2a2a;
+  }
+h3{
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
 }
 h4 {
     margin-top: .4rem;
@@ -31,6 +45,7 @@ h4 {
 }
 
 .intro {
+    font-size: 1.5rem;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
@@ -55,13 +70,22 @@ img {
     margin-right: auto;
     padding: 1%;
 }
+#img:hover{
+    box-shadow: inset 700px 0 0 0 #FADBE4;
+}
 
-.program {
+.event {
     margin: 2.5%;
     padding: 2.5%;
     background-color:#fff8e2;
+    border-radius: 1.5em 1.5em 0 0;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-color: #FADBE4;
+    border-width: 1rem;
 }
-
+#background:hover {
+    color: blueviolet;
+}
 .img_wrapper {
     align-items: center;
     justify-content: center;
@@ -73,7 +97,7 @@ img {
         margin-right: 5%;
     }
 
-    .program_wrapper {
+    .event_wrapper {
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -89,7 +113,7 @@ img {
         margin-left: 10%;
         margin-right: 10%;
     }
-    .program_wrapper {
+    .event_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid: flex;
