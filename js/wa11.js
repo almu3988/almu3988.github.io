@@ -42,3 +42,4 @@ for (const image of images) {
       overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
   });
+
