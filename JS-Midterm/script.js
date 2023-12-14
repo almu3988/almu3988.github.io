@@ -18,7 +18,7 @@ function getRandomPosition() {
       const phoneNumberField = document.getElementById('phoneNumber');
       if(num <10){
         phoneNumberField.value += number;
-        num = num + 2;
+        num = num + 1;
       }  
     });
     return numberElement;
