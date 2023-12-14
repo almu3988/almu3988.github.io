@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightcyan;
+    color: black;
+    text-align: left;
+  }
+  input[type=radio] {
+    margin:0px;
+  }
+  .num {
+    position:absolute;
+    display:inline-block;
+  }
+  #radiocontainer {
+    width:256px;
+    height:256px;
+    border:3px inset #c0c0c0;
+    position:relative;
+  }
+  
+
+  #numberContainer {
+    position: absolute;
+    top: 22vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .floatingNumber {
+    position: static;
+    font-size: 90px;
+    cursor: pointer;
+  }
+
+  #phoneNumber {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: whitesmoke;
+    color: gray;
+    border: none;
+  }
+
+  #prompt {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  #clearNumber,
+  #submitNumber {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 25px;
+    background-color: lightblue;
+    color: gray;
+    border: silver;
+    border-radius: 4px;
+  }
